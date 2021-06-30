@@ -1,0 +1,26 @@
+{
+  "name": "agilitycms-management-api-cli-node-starter",
+  "version": "1.0.0",
+  "description": "Cli starter to handle automated updates to content in Agility CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agility/agilitycms-management-api-cli-node-starter"
+  },
+  "author": "James Vidler",
+  "license": "ISC",
+  "bin": {
+    "agilitycms-management-api-cli-node-starter": "./cli.js"
+  },
+  "dependencies": {
+    "@agility/content-fetch": "^1.1.1",
+    "@agility/content-management": "^0.2.0",
+    "cli-color": "^1.4.0",
+    "deep-sort": "^1.0.4",
+    "request": "^2.88.0",
+    "yargs": "^13.3.0"
+  }
+}
