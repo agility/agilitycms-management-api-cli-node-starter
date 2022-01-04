@@ -65,7 +65,7 @@ options = {...options, ...argv};
                 languageCode
             }) 
             //wait 3 seconds... and try again
-            wait(3000);
+            await wait(3000);
        }
    }
 
